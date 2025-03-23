@@ -1,0 +1,22 @@
+
+hello:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00010054 <_start>:
+   10054:	e3a00001 	mov	r0, #1
+   10058:	e28f1014 	add	r1, pc, #20
+   1005c:	e3a0200e 	mov	r2, #14
+   10060:	e3a07004 	mov	r7, #4
+   10064:	ef000000 	svc	0x00000000
+   10068:	e3a00000 	mov	r0, #0
+   1006c:	e3a07001 	mov	r7, #1
+   10070:	ef000000 	svc	0x00000000
+
+00010074 <msg>:
+   10074:	6c6c6548 	.word	0x6c6c6548
+   10078:	77202c6f 	.word	0x77202c6f
+   1007c:	646c726f 	.word	0x646c726f
+   10080:	0a21      	.short	0x0a21
+	...
